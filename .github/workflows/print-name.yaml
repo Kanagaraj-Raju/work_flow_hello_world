@@ -7,4 +7,4 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - name: print the name
-        run: echo "Hello from runner"
+        run: echo "Hello from runner."
