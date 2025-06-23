@@ -1,0 +1,10 @@
+name: print-name
+
+on: push
+
+jobs:
+   print_name:
+      runs-on: ubuntu-latest
+      steps:
+      - name: print the name
+        run: echo "Hello from runner"
